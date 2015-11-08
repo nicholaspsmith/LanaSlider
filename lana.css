@@ -1,1 +1,9 @@
 /* CSS declarations go here */
+.info {
+  height: 5%;
+  width: 8%;
+  position: absolute;
+  right: 8%;
+  top: 11.7%;
+  border-radius: 50px;
+}

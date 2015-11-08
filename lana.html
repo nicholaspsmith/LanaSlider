@@ -11,8 +11,14 @@
           <!-- Slides -->
           <div class="swiper-slide"><img id="one" src="l1.jpg" alt="" style="width:100%;"></div>
           <div class="swiper-slide"><img id="two" src="l2.jpg" alt="" style="width:100%;"></div>
-          <div class="swiper-slide"><img id="three" src="l3.jpg" alt="" style="width:100%;"></div>
-          <div class="swiper-slide"><img id="three" src="l4.jpg" alt="" style="width:100%;"></div>
+          <div class="swiper-slide">
+            <img id="three" src="l3.jpg" alt="" style="width:100%;">
+            <div class="info"></div>
+          </div>
+          <div class="swiper-slide">
+            <img id="three" src="l4.jpg" alt="" style="width:100%;">
+            <div class="info"></div>
+          </div>
           <div class="swiper-slide"><img id="three" src="l5.jpg" alt="" style="width:100%;"></div>
           <div class="swiper-slide"><img id="three" src="l6.jpg" alt="" style="width:100%;"></div>
           ...
@@ -27,7 +33,10 @@
        // Optional parameters
        direction: 'horizontal',
        loop: false
-     })
+     });
+     $('.info').click(function(){
+       alert('This does nothing yet');
+     });
    });
   </script>
 </body>
